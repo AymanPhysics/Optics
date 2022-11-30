@@ -188,13 +188,13 @@ Public Class Sales
         lblSaveId.Visibility = Windows.Visibility.Hidden
         SaveId.Visibility = Windows.Visibility.Hidden
         SaveName.Visibility = Windows.Visibility.Hidden
-        SaveId.IsEnabled = Md.Manager
+        'SaveId.IsEnabled = Md.Manager
 
 
         lblBankId.Visibility = Windows.Visibility.Hidden
         BankId.Visibility = Windows.Visibility.Hidden
         BankName.Visibility = Windows.Visibility.Hidden
-        BankId.IsEnabled = Md.Manager
+        'BankId.IsEnabled = Md.Manager
 
         StaticsDt = bm.ExecuteAdapter("select top 1 S_AccNo,R_S_AccNo,P_AccNo,R_P_AccNo,S_AccNo1,S_Per1,S_AccType1,S_AccNo2,S_Per2,S_AccType2,S_AccNo3,S_Per3,S_AccType3,S_AccNo4,S_Per4,S_AccType4,P_AccNo1,P_Per1,P_AccType1,P_AccNo2,P_Per2,P_AccType2,P_AccNo3,P_Per3,P_AccType3,P_AccNo4,P_Per4,P_AccType4,S_SubAccNo1,S_SubAccNo2,S_SubAccNo3,S_SubAccNo4,S_R_SubAccNo1,S_R_SubAccNo2,S_R_SubAccNo3,S_R_SubAccNo4,P_SubAccNo1,P_SubAccNo2,P_SubAccNo3,P_SubAccNo4,P_R_SubAccNo1,P_R_SubAccNo2,P_R_SubAccNo3,P_R_SubAccNo4 from Statics")
 

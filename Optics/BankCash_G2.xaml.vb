@@ -396,7 +396,7 @@ Public Class BankCash_G2
 
     Private Sub G_RowsAdded(sender As Object, e As DataGridViewRowsAddedEventArgs)
         Try
-            G1.CurrentRow.Cells(GC.CostCenterId).Value = Md.CostCenterId
+            'G1.CurrentRow.Cells(GC.CostCenterId).Value = Md.CostCenterId
         Catch
         End Try
     End Sub

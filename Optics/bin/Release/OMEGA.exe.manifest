@@ -199,14 +199,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OMEGA.exe" size="20047360">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OMEGA.exe" size="20117504">
       <assemblyIdentity name="OMEGA" version="3.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3nTXkgYInccjjK2kWT7oxWhbzf0Q4Lh4GIameXY9E3Y=</dsig:DigestValue>
+        <dsig:DigestValue>1NZPIyS8MqM1KNcrm8HocoknC+7JWfnvIAN4Lm6XLLE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
